@@ -11,7 +11,7 @@ function generatePassword() {
   var includeNumbers = confirm("Click OK to confirm including numeric characters.");
   var includeSpecial = confirm("Click OK to confirm including special characters.");
 
-  // Define character sets based on user criteria
+  // Define character sets
   var lowercaseChars = "abcdefghijklmnopqrstuvwxyz";
   var uppercaseChars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
   var numericChars = "0123456789";
